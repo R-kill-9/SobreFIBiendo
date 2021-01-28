@@ -105,7 +105,7 @@ def plan_room():
         game_over("Pero muy guapo.")
 
     print("\nEn el bar te cuenta tener un malévolo plan con el que convertirá a la FIB en la mayor asociación de marihuana de ESPAÑITA.")
-    print("Te confiesa que le has caído muy bien y que le gustaría que le ayudaras a cumplir su sueño")
+    print("Te confiesa que le has caído muy bien y que le gustaría que le ayudaras a cumplir su sueño.")
     print("Tu único trbajo sería retar a JL, su gran opositor, a una batalla a muerte.")
     print("Te promete que si ganas te regalrá el título de informática y un mercedes comprado con las cuotas de tus compañeros de clase.")
     print("¿Aceptas? (1 o 2)")
@@ -132,9 +132,9 @@ def putin_room():
 def heroe_room():
     print("\nAl despertarte sientes en tu interior un enorme poder equiparable al de Voldemortt o Putin.")
     print("Los superpoderes otorgados por el doble elefante telépata de guerra son: ")
-    print("    Capacidad de hablar con mujeres sin tartamudear.")
-    print("    Dominio perfecto del Ruso y gran amor por su cultura.")
-    print("    Excelente control sobre el temario referido a los procesadores Von Neumann.")
+    print("    >Capacidad de hablar con mujeres sin tartamudear.")
+    print("    >Dominio perfecto del Ruso y gran amor por su cultura.")
+    print("    >Excelente control sobre el temario referido a los procesadores Von Neumann.")
     print("De repente sientes unas ganas irrefrenables de retar a JL a un duelo a muerte.")
     print("¿Qué decides hacer? (1 o 2 o 3)")
     print("\n1.) Presentarme en su oficina y luchar hasta la muerte.")
@@ -233,7 +233,7 @@ def Nuemann_room():
         weed_room()
     
 def exam1_room():
-    print("Te presentas al priner examen y logras aprobar gracias a que tenías al gran Tomit delante.")
+    print("\nTe presentas al primer examen y logras aprobar gracias a que tenías al gran Tomit delante.")
     Nuemann_room()
 
 def sex_room():
@@ -268,16 +268,16 @@ def depression1_room():
     print("En el examen solo fuiste capaz de responder una de las siete preguntas.")
     print("Aún así tu única esperanza era impresionar a tus amigos con tu gran habilidad para tocar teclas en el momento exacto.")
     print("Por desgrácia tus panas decidieron no jugar contigo porque les parecías extremadamente raro.")
-    print("Por otra parte dijeron no querer volver a verte desprendías un hedor que les hacía estar incómodos cuando te veían")
-    print("Debido al trauma que te causó dichas palabras caíste en una gran depresión")
-    game_over("Por culpa de la depresión dejaste de acudir a clase y no te presentaste a ningún examen")
+    print("Por otra parte dijeron no querer volver a verte desprendías un hedor que les hacía estar incómodos cuando te veían.")
+    print("Debido al trauma que te causó dichas palabras caíste en una gran depresión.")
+    game_over("Por culpa de la depresión dejaste de acudir a clase y no te presentaste a ningún examen.")
 
 def depression2_room():
     print("\nDebido al exceso de estudio empezaste a sufrir alucinaciones.")
-    print("Solo eras capaz de comunicarte en binario y ya no querías ver Hentai, preferías ver las sensuales curvas de una puerta OR")
+    print("Solo eras capaz de comunicarte en binario y ya no querías ver Hentai, preferías ver las sensuales curvas de una puerta OR.")
     print("Ya no comías, puesto que te alimentabas de los carry que quedaban en las operaciones de suma binaria.")
     print("Días después fuiste ingresado en un hospital de psiquiatría con muchos otros informáticos.")
-    game_over("Por culpa de tu enfermedad mental dejaste de acudir a clase y no te presentaste a ningún examen")
+    game_over("Por culpa de tu enfermedad mental dejaste de acudir a clase y no te presentaste a ningún examen.")
 
 
 def love2_room():
@@ -348,13 +348,13 @@ def class2_room():
             # if player typed "2" lead him to class_room()
             exam1_room()
         else: 
-            game_over("No todo el mundo nace con los cromosomas correctos")
+            game_over("No todo el mundo nace con los cromosomas correctos.")
 
 def lol_room():
     print("\nSin darte cuenta has pasado toda la clase hablando de LOL con tus nuevos amigos y no has hecho caso a JL.")
     print("Llegas a casa y recibes una llamada de uno de tus amigos preguntandote si quieres jugar ¿Qué decides hacer? (1 o 2)")
     print("\n1.) Jugar para socializar porque nunca has tenido amigos, sino no serías informático.")
-    print("2.) No jugar y repasar. Total para que quieres amigos reales cuando puedes tener todos los imaginarios que quieras")   
+    print("2.) No jugar y repasar. Total para que quieres amigos reales cuando puedes tener todos los imaginarios que quieras.")   
 
     answer = input(">")
 
@@ -367,11 +367,11 @@ def lol_room():
 
 
 def class_room():
-    print("\nHas atendido sabiamente a toda la clae del gran JL aprendiendo cosas que nunca vas a usar porque no te gusta el hardware") 
+    print("\nHas atendido sabiamente a toda la clae del gran JL aprendiendo cosas que nunca vas a usar porque no te gusta el hardware.") 
     print(" ¿verdad?")
     print("\n1.) Si que me gusta, soy un psicópata.")
     print("2.) No, no me ducho pero soy normal.")   
-    print("3.) Viva el betis")   
+    print("3.) Viva el betis.")   
 
     answer = input(">")
 
@@ -401,7 +401,7 @@ def love_room():
     print("\nSin darte cuenta has pasado toda la clase hablando con la chica y no has hecho caso a JL.")
     print("Llegas a casa y recibes una llamada de la chica de clase ¿Qué decides hacer? (1 o 2)")
     print("\n1.) Coger el teléfono.")
-    print("2.) No coger el teléfono y repasar lo que se ha repasado")   
+    print("2.) No coger el teléfono y repasar lo que se ha repasado.")   
 
     answer = input(">")
 
@@ -430,9 +430,9 @@ def virgo_room():
 
 def girl_room():
     print("\nLa chica en la que te habías fijado resulta ser un tio, amigo despierta esto es informática.")
-    print("Aún así pareces estar en tu día de suerte, ya que una chica se sienta a tu lado y te saluda")
+    print("Aún así pareces estar en tu día de suerte, ya que una chica se sienta a tu lado y te saluda.")
     print("¿Qué decides hacer? (1 o 2 o 3)")
-    print("\n1.) Saludarle de vuelta con un -Hola")
+    print("\n1.) Saludarle de vuelta con un -Hola.")
     print("2.) Asentir con la cabeza sin llegar a decir nada.")
     print("3.) Agachar la cabeza y no responder, nunca antes has hablado con una mujer y la situación te sobrepasa.")
 
