@@ -1,3 +1,92 @@
+def final_room():
+    print("\nHAS APROADO IC MÁQUINA. TU PREMIO ES SEGUIR SIENDO UN FRIKI QUE HUELE A CHETOS PELOTAZOS, FELICIDADES!!!!")
+
+def putin_love_room():
+    print("\nInvocas a PUTIN sin camiseta usando palabras no inteligíbles para un ser humano.")
+    print("Al aparecer PUTIN ves como cambia repentinamentela cara de JL.")
+    print("    JL: -PUTIN eres tu, después de tanto tiempo. ¿Qué haces aquí?")
+    print("    PUTIN: -Меня вызвал этот выродок, чтобы сразиться с тобой до смерти.")
+    print("    JL: -Yo no soy capaz de luchar contra ti, no con lo que tu y yo fuimos una vez.")
+    print("    PUTIN: -Для меня это больше ничего не значит, ты оставил меня, черт возьми.")
+    print("    JL: -Nunca quise abandonarte lo sabes. Yo siempre estuve enamorado de ti.")
+    print("    PUTIN: -Мне все равно. ты мертв для меня.")
+    print("Después de la última palabra PUTIN desintegró a JL utilizando sus preciosos ojos azules y desapareció.")
+    print("Entre los restos de JL aparecieron mágicamente dos objetos.")
+    print("El primer objeto es un boli rojo en el que está escrito lo siguiente: 'Un boli para suspenderlos a todos'.")
+    print("El otro objeto es un certificado de la asignatura de IC.")
+    final_room()
+
+
+def jl2_room():
+    print("\nUna vez llegas a la facultad notas como el cielo se llena de nubes y baja la temperatura causando una erección en tus pezones.")
+    print("Al entrar en el despacho de JL un destello te ciega. Al recuperar la vista ves que el despacho ha desaparecido y estás en el Coliseo.")
+    print("    JL: -Llevaba tiempo esperándote. Sois muchos ya los que habéis intentado vencerme, pero aún nadie ha sido digno de mi poder.")
+    print("    Tú: -No te equivoques, yo no soy como el resto. El poder de Von Neumann está de mi lado y siento como corre por mis venas.")
+    print("    JL: -Pobre iluso. No eres capaz ni de hacer el ejercicio del semáforo inútil. Me das tanta pena que te dejaré atacar primero.")
+    print("¿Qué ataque decides hacer? (1 o 2 o 3)")
+    print("\n1.) Tirarle un bong a la cabeza.")
+    print("2.) Invocar uno de los muchos MERCEDES del sr. RECTOR.")
+    print("3.) Flirtear con JL.")
+    
+    attack = input(">")
+
+    if (attack == "1"):
+        # if player typed "1" lead him to final_room()
+        print("Has fumado tantos porros con el RECTOR que tu nivel de fuerza ha igualado al de GOKU y el bong ha llegado a 2.99*10^8 m/s.")
+        print("Jl intenta esquivar el bong con su velocidad de procesador VON NEUMANN usando la ALU, pero no es suficiente.")
+        print("La velocidad es tal que el golpe desintegra a JL con el impacto, acción que le produce un gran placer a tu mente enferma.")
+        print("Delante tuyo aparecen mágicamente dos objetos.")
+        print("El primer objeto es un boli rojo en el que está escrito lo siguiente: 'Un boli para suspenderlos a todos'.")
+        print("El otro objeto es un certificado de la asignatura de IC.")
+        final_room()
+    elif (attack == "3"):
+    # if player typed "3" lead him to game_over()
+        print("    JL: -No intentes eso, mi corazón está roto. Yo solo he sido capaz de amar a un hombre, Vladimir y la vida nos separó.")
+        print("    JL: -Jamás deberías haberme hecho recordarlo maldito gusano.")     
+        print("Tus palabras causaron tal cólera en JL que desprendió una onda binaria explosiva que separó tu cabeza de tu cuerpo en un t.p.")       
+        game_over("Nunca debiste recordarle a JL que tiene el cora partido.")
+    else:
+        # if player typed "2" lead him to final_room()
+        print("Invocas un MERCEDES BENZ FULL EQUIPED de color amarillo usando palabras no inteligíbles para un ser humano.")
+        print("Posteriormente te subes y te das cuenta de que el acabado del interior es precioso, gracias a las matrículas de los de tardes.")
+        print("Una vez has observado perfectamente el coche atropellas majestuosamente a JL, múltiples veces.")
+        print("Cuando observas que ya lo has derrotado sigues atropellándolo porque estás loco, sino no habrías llegado hasta aquí.")
+        print("Delante tuyo aparecen mágicamente dos objetos.")
+        print("El primer objeto es un boli rojo en el que está escrito lo siguiente: 'Un boli para suspenderlos a todos'.")
+        print("El otro objeto es un certificado de la asignatura de IC.")
+        final_room()
+
+def jl_room():
+    print("\nUna vez llegas a la facultad notas como el cielo se llena de nubes y baja la temperatura causando una erección en tus pezones.")
+    print("Al entrar en el despacho de JL un destello te ciega. Al recuperar la vista ves que el despacho ha desaparecido y estás en el Coliseo.")
+    print("    JL: -Llevaba tiempo esperándote. Sois muchos ya los que habéis intentado vencerme, pero aún nadie ha sido digno de mi poder.")
+    print("    Tú: -No te equivoques, yo no soy como el resto. El poder de Von Neumann está de mi lado y siento como corre por mis venas.")
+    print("    JL: -Pobre iluso. No eres capaz ni de hacer el ejercicio del semáforo inútil. Me das tanta pena que te dejaré atacar primero.")
+    print("¿Qué ataque decides hacer? (1 o 2 o 3)")
+    print("\n1.) Disparar puertas AND con los ojos.")
+    print("2.) Invocar al mismisimo PUTIN con tu dominio del ruso.")
+    print("3.) Flirtear con JL.")
+
+    attack = input(">")
+
+    if (attack == "1"):
+        # if player typed "1" lead him to final_room()
+        print("Tu poder es tal que has sido capaz de clavarle veinte puertas AND en cada ojo a tu enemigo.")
+        print("Jl intenta ir a por ti pero por culpa de la ceguera se tropieza con una piedra del Colisseo y cae en una trampilla secreta.")
+        print("En esa trampilla es devorado por dos leones, acción que le produce un gran placer a tu mente enferma.")
+        print("Delante tuyo aparecen mágicamente dos objetos.")
+        print("El primer objeto es un boli rojo en el que está escrito lo siguiente: 'Un boli para suspenderlos a todos'.")
+        print("El otro objeto es un certificado de la asignatura de IC.")
+    elif (attack == "3"):
+    # if player typed "3" lead him to game_over()
+        print("    JL: -No intentes eso, mi corazón está roto. Yo solo he sido capaz de amar a un hombre, Vladimir y la vida nos separó.")
+        print("    JL: -Jamás deberías haberme hecho recordarlo maldito gusano.")     
+        print("Tus palabras causaron tal cólera en JL que desprendió una onda binaria explosiva que separó tu cabeza de tu cuerpo en un t.p.")       
+        game_over("Nunca debiste recordarle a JL que tiene el cora partido.")
+    else:
+        # if player typed "2" lead him to putin_love_room()
+        putin_love_room()
+
 
 
 def plan_room():
@@ -18,7 +107,7 @@ def plan_room():
     print("\nEn el bar te cuenta tener un malévolo plan con el que convertirá a la FIB en la mayor asociación de marihuana de ESPAÑITA.")
     print("Te confiesa que le has caído muy bien y que le gustaría que le ayudaras a cumplir su sueño")
     print("Tu único trbajo sería retar a JL, su gran opositor, a una batalla a muerte.")
-    print("Te promete que si ganas te regalrá el título de informático y un mercedes comprado con las cuotas de tus compañeros de clase.")
+    print("Te promete que si ganas te regalrá el título de informática y un mercedes comprado con las cuotas de tus compañeros de clase.")
     print("¿Aceptas? (1 o 2)")
     print("\n1.) Voy a acabar con JL y vengar a aquellos soldados caídos en Noviembre.")
     print("2.) Aceituna.")
@@ -28,9 +117,9 @@ def plan_room():
 
     if (answer == "1"):
         # if player typed "1" lead him to JL_room()
-        jl_room()
+        jl2_room()
     elif (answer == "2"):
-        print("Al pronunciar dicha palabra has causado una fisura Rusa temporal.")
+        print("Al pronunciar dicha palabra has causado un bucle de amor a Rusia.")
         putin_room()
     else:
         # if player typed "3" lead him to putin_room()
@@ -43,9 +132,9 @@ def putin_room():
 def heroe_room():
     print("\nAl despertarte sientes en tu interior un enorme poder equiparable al de Voldemortt o Putin.")
     print("Los superpoderes otorgados por el doble elefante telépata de guerra son: ")
-    print("Capacidad de hablar con mujeres sin tartamudear.")
-    print("Dominio perfecto del Ruso y gran amor por su cultura.")
-    print("Excelente control sobre el temario referido a los procesadores Von Neumann.")
+    print("    Capacidad de hablar con mujeres sin tartamudear.")
+    print("    Dominio perfecto del Ruso y gran amor por su cultura.")
+    print("    Excelente control sobre el temario referido a los procesadores Von Neumann.")
     print("De repente sientes unas ganas irrefrenables de retar a JL a un duelo a muerte.")
     print("¿Qué decides hacer? (1 o 2 o 3)")
     print("\n1.) Presentarme en su oficina y luchar hasta la muerte.")
