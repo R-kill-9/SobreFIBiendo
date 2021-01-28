@@ -1,5 +1,151 @@
+
+
+def plan_room():
+    print("\nEl RECTOR te confiesa también ser un gran fanático de la marihuana y te dice que no te preocupes que él lo arreglará todo.")
+    print("Después de hablar con el malvado DECANO el RECTOR te invita a tomar un pitiflí en el bar.")
+    print("¿Aceptas? (1 o 2)")
+    print("\n1.) Por supuesto.")
+    print("2.) Es demasiado guapo como para rechazar.")
+
+    answer1 = input(">")
+    
+    if (answer1 == "1"):
+        print("Quién podría rechazar dicha oferta.")
+    
+    else:
+        game_over("Pero muy guapo.")
+
+    print("\nEn el bar te cuenta tener un malévolo plan con el que convertirá a la FIB en la mayor asociación de marihuana de ESPAÑITA.")
+    print("Te confiesa que le has caído muy bien y que le gustaría que le ayudaras a cumplir su sueño")
+    print("Tu único trbajo sería retar a JL, su gran opositor, a una batalla a muerte.")
+    print("Te promete que si ganas te regalrá el título de informático y un mercedes comprado con las cuotas de tus compañeros de clase.")
+    print("¿Aceptas? (1 o 2)")
+    print("\n1.) Voy a acabar con JL y vengar a aquellos soldados caídos en Noviembre.")
+    print("2.) Aceituna.")
+    print("3.) Yo cogería la 1.")
+    
+    answer = input(">")
+
+    if (answer == "1"):
+        # if player typed "1" lead him to JL_room()
+        jl_room()
+    elif (answer == "2"):
+        print("Al pronunciar dicha palabra has causado una fisura Rusa temporal.")
+        putin_room()
+    else:
+        # if player typed "3" lead him to putin_room()
+        game_over("Te quedaba poco para ganar pero te pasáste de troll.")
+
+def putin_room():
+    print("Родина Россия")
+    putin_room()
+
+def heroe_room():
+    print("\nAl despertarte sientes en tu interior un enorme poder equiparable al de Voldemortt o Putin.")
+    print("Los superpoderes otorgados por el doble elefante telépata de guerra son: ")
+    print("Capacidad de hablar con mujeres sin tartamudear.")
+    print("Dominio perfecto del Ruso y gran amor por su cultura.")
+    print("Excelente control sobre el temario referido a los procesadores Von Neumann.")
+    print("De repente sientes unas ganas irrefrenables de retar a JL a un duelo a muerte.")
+    print("¿Qué decides hacer? (1 o 2 o 3)")
+    print("\n1.) Presentarme en su oficina y luchar hasta la muerte.")
+    print("2.) Yo cogería la 1.")
+    print("3.) Abrir un bucle espacio temporal de amor a Putin.")
+
+    answer = input(">")
+
+    if (answer == "1"):
+        # if player typed "1" lead him to JL_room()
+        jl_room()
+    elif (answer == "2"):
+    # if player typed "2" lead him to game_over()
+        game_over("Tu rebeldia hacia el juego ha causado daños cerebrales a su creador.")
+    else:
+        # if player typed "3" lead him to putin_room()
+        putin_room()
+        
+
+def meet_room():
+    print("\nAl llegar a la reunión te encuentras al RECTOR en la entrada del despacho y te pregunta qué haces ahí.")
+    print("¿Qué decides hacer? (1 o 2 o 3)")
+    print("\n1.) Mentirle. Es mi ídolo y no quiero que tenga mala imagen de mi.")
+    print("2.) Me quedo abrumado debido a que es excesivamente táctico.")
+    print("3.) Decirle la verdad porque es jedi y sabrá si le miento.")
+
+    answer = input(">")
+
+    if (answer == "1"):
+        # if player typed "1" lead him to game_over()
+        game_over("Nunca intentes mentir a un maestro jedi.")
+    elif (answer == "2"):
+    # if player typed "2" lead him to digimon_room()
+        print("A todos nos pasaría lo mismo pero la respuesta correcta era la 3.")
+        print("Vamos a hacer que no ha pasado nada y que has escogido la 3.")
+        plan_room()
+    else:
+        # if player typed "3" lead him to plan_room()
+        plan_room()
+
+def snorlax_room():
+    print("\nEstás en un sueño, en medio de la nada. Lo único que hay es una figura de un metro de altura de un doble elefante télepata de guerra.")
+    print("En la figura hay un mensaje oculto en el que se puede leer lo siguiente: ")
+    print("    1011 1110 1011 1110 0101 0001 0111 1010")
+    print("Al lado de la figura hay tres botones con tres palabras distintas.")
+    print("¿Cuál decides pulsar? (1 o 2 o 3)")
+    print("\n1.) Botón 1: Ole Betis")
+    print("2.) Bebesita.")
+    print("3.) Brr Anuel AA")
+
+    answer = input(">")
+
+    if (answer == "1"):
+        # if player typed "1" lead him to game_over()
+        game_over("No descifraste correctamente el código en hexa.")
+    elif (answer == "2"):
+    # if player typed "2" lead him to digimon_room()
+        heroe_room()
+    else:
+        # if player typed "3" lead him to game_over()
+        game_over("No descifraste correctamente el código en hexa.")
+
+def weed_room():
+    print("\nSin querer te has dejado la cámara activada y JL te ha visto fumando mientras él explicaba el interesantísimo temario.")
+    print("Justo al acabar la clase te llega un correo de JL, que te comenta que tienes una reunión con el DECANO esa misma tarde.")
+    print("¿Qué decides hacer? (1 o 2)")
+    print("\n1.) Dejarle en visto, total la FP de informática es casi como la carrera ¿no?")
+    print("2.) Acudir a la reunión.")
+
+    answer = input(">")
+
+    if (answer == "1"):
+        # if player typed "1" lead him to game_over()
+        game_over("No hace falta explicación.")
+    else:
+        # if player typed "2" lead him to meet_room()
+        meet_room()
+
+def Nuemann_room():
+    print("\nHa pasado un mes del primer parcial y hoy se dará la clase online sobre el procesador VON NEUMANN.")
+    print("¿Qué decides hacer? (1 o 2 o 3)")
+    print("\n1.) Atender a la clase mientras bebo un té verde.")
+    print("2.) Dormir modo Snorlax.")
+    print("3.) Fumar un porro mientras atiendo a la clase.")
+
+    answer = input(">")
+
+    if (answer == "1"):
+        # if player typed "1" lead him to game_over()
+        game_over("Resultaste ser alérgico al agua, con lo que el té te provcó un coma de tres años y dos días.")
+    elif (answer == "2"):
+        # if player typed "2" lead him to snorlax_room()
+        snorlax_room()
+    else:
+        # if player typed "3" lead him to weed_room()
+        weed_room()
+    
 def exam1_room():
     print("Te presentas al priner examen y logras aprobar gracias a que tenías al gran Tomit delante.")
+    Nuemann_room()
 
 def sex_room():
     print("\nUna vez llegas a su casa la chica te pregunta que si quieres ir ya a estudiar o prefieres ver Netflixa un rato.")
