@@ -1,32 +1,20 @@
 def final_room():
-    print("\nHAS APROADO IC MÁQUINA. TU PREMIO ES SEGUIR SIENDO UN FRIKI QUE HUELE A CHETOS PELOTAZOS, FELICIDADES!!!!")
+    route = './rooms/final.txt'
+    file = open(route, 'r')
+    print(file.read())
 
 def putin_love_room():
-    print("\nInvocas a PUTIN sin camiseta usando palabras no inteligíbles para un ser humano.")
-    print("Al aparecer PUTIN ves como cambia repentinamentela cara de JL.")
-    print("    JL: -PUTIN eres tu, después de tanto tiempo. ¿Qué haces aquí?")
-    print("    PUTIN: -Меня вызвал этот выродок, чтобы сразиться с тобой до смерти.")
-    print("    JL: -Yo no soy capaz de luchar contra ti, no con lo que tu y yo fuimos una vez.")
-    print("    PUTIN: -Для меня это больше ничего не значит, ты оставил меня, черт возьми.")
-    print("    JL: -Nunca quise abandonarte lo sabes. Yo siempre estuve enamorado de ti.")
-    print("    PUTIN: -Мне все равно. ты мертв для меня.")
-    print("Después de la última palabra PUTIN desintegró a JL utilizando sus preciosos ojos azules y desapareció.")
-    print("Entre los restos de JL aparecieron mágicamente dos objetos.")
-    print("El primer objeto es un boli rojo en el que está escrito lo siguiente: 'Un boli para suspenderlos a todos'.")
-    print("El otro objeto es un certificado de la asignatura de IC.")
+    route = './rooms/putin_love.txt'
+    file = open(route, 'r')
+    print(file.read())
+
     final_room()
 
 
 def jl2_room():
-    print("\nUna vez llegas a la facultad notas como el cielo se llena de nubes y baja la temperatura causando una erección en tus pezones.")
-    print("Al entrar en el despacho de JL un destello te ciega. Al recuperar la vista ves que el despacho ha desaparecido y estás en el Coliseo.")
-    print("    JL: -Llevaba tiempo esperándote. Sois muchos ya los que habéis intentado vencerme, pero aún nadie ha sido digno de mi poder.")
-    print("    Tú: -No te equivoques, yo no soy como el resto. El poder de Von Neumann está de mi lado y siento como corre por mis venas.")
-    print("    JL: -Pobre iluso. No eres capaz ni de hacer el ejercicio del semáforo inútil. Me das tanta pena que te dejaré atacar primero.")
-    print("¿Qué ataque decides hacer? (1 o 2 o 3)")
-    print("\n1.) Tirarle un bong a la cabeza.")
-    print("2.) Invocar uno de los muchos MERCEDES del sr. RECTOR.")
-    print("3.) Flirtear con JL.")
+    route = './rooms/jl2.txt'
+    file = open(route, 'r')
+    print(file.read())
     
     attack = input(">")
 
@@ -57,15 +45,9 @@ def jl2_room():
         final_room()
 
 def jl_room():
-    print("\nUna vez llegas a la facultad notas como el cielo se llena de nubes y baja la temperatura causando una erección en tus pezones.")
-    print("Al entrar en el despacho de JL un destello te ciega. Al recuperar la vista ves que el despacho ha desaparecido y estás en el Coliseo.")
-    print("    JL: -Llevaba tiempo esperándote. Sois muchos ya los que habéis intentado vencerme, pero aún nadie ha sido digno de mi poder.")
-    print("    Tú: -No te equivoques, yo no soy como el resto. El poder de Von Neumann está de mi lado y siento como corre por mis venas.")
-    print("    JL: -Pobre iluso. No eres capaz ni de hacer el ejercicio del semáforo inútil. Me das tanta pena que te dejaré atacar primero.")
-    print("¿Qué ataque decides hacer? (1 o 2 o 3)")
-    print("\n1.) Disparar puertas AND con los ojos.")
-    print("2.) Invocar al mismisimo PUTIN con tu dominio del ruso.")
-    print("3.) Flirtear con JL.")
+    route = './rooms/jl.txt'
+    file = open(route, 'r')
+    print(file.read())
 
     attack = input(">")
 
@@ -77,6 +59,8 @@ def jl_room():
         print("Delante tuyo aparecen mágicamente dos objetos.")
         print("El primer objeto es un boli rojo en el que está escrito lo siguiente: 'Un boli para suspenderlos a todos'.")
         print("El otro objeto es un certificado de la asignatura de IC.")
+        
+        final_room()
     elif (attack == "3"):
     # if player typed "3" lead him to game_over()
         print("    JL: -No intentes eso, mi corazón está roto. Yo solo he sido capaz de amar a un hombre, Vladimir y la vida nos separó.")
@@ -90,11 +74,9 @@ def jl_room():
 
 
 def plan_room():
-    print("\nEl RECTOR te confiesa también ser un gran fanático de la marihuana y te dice que no te preocupes que él lo arreglará todo.")
-    print("Después de hablar con el malvado DECANO el RECTOR te invita a tomar un pitiflí en el bar.")
-    print("¿Aceptas? (1 o 2)")
-    print("\n1.) Por supuesto.")
-    print("2.) Es demasiado guapo como para rechazar.")
+    route = './rooms/plan.txt'
+    file = open(route, 'r')
+    print(file.read())
 
     answer1 = input(">")
     
@@ -126,20 +108,13 @@ def plan_room():
         game_over("Te quedaba poco para ganar pero te pasáste de troll.")
 
 def putin_room():
-    print("Родина Россия")
-    putin_room()
+    while True:
+        print("Родина Россия")
 
 def heroe_room():
-    print("\nAl despertarte sientes en tu interior un enorme poder equiparable al de Voldemortt o Putin.")
-    print("Los superpoderes otorgados por el doble elefante telépata de guerra son: ")
-    print("    >Capacidad de hablar con mujeres sin tartamudear.")
-    print("    >Dominio perfecto del Ruso y gran amor por su cultura.")
-    print("    >Excelente control sobre el temario referido a los procesadores Von Neumann.")
-    print("De repente sientes unas ganas irrefrenables de retar a JL a un duelo a muerte.")
-    print("¿Qué decides hacer? (1 o 2 o 3)")
-    print("\n1.) Presentarme en su oficina y luchar hasta la muerte.")
-    print("2.) Yo cogería la 1.")
-    print("3.) Abrir un bucle espacio temporal de amor a Putin.")
+    route = './rooms/heroe.txt'
+    file = open(route, 'r')
+    print(file.read())
 
     answer = input(">")
 
@@ -155,11 +130,9 @@ def heroe_room():
         
 
 def meet_room():
-    print("\nAl llegar a la reunión te encuentras al RECTOR en la entrada del despacho y te pregunta qué haces ahí.")
-    print("¿Qué decides hacer? (1 o 2 o 3)")
-    print("\n1.) Mentirle. Es mi ídolo y no quiero que tenga mala imagen de mi.")
-    print("2.) Me quedo abrumado debido a que es excesivamente táctico.")
-    print("3.) Decirle la verdad porque es jedi y sabrá si le miento.")
+    route = './rooms/meet.txt'
+    file = open(route, 'r')
+    print(file.read())
 
     answer = input(">")
 
@@ -176,14 +149,9 @@ def meet_room():
         plan_room()
 
 def snorlax_room():
-    print("\nEstás en un sueño, en medio de la nada. Lo único que hay es una figura de un metro de altura de un doble elefante télepata de guerra.")
-    print("En la figura hay un mensaje oculto en el que se puede leer lo siguiente: ")
-    print("    1011 1110 1011 1110 0101 0001 0111 1010")
-    print("Al lado de la figura hay tres botones con tres palabras distintas.")
-    print("¿Cuál decides pulsar? (1 o 2 o 3)")
-    print("\n1.) Botón 1: Ole Betis")
-    print("2.) Bebesita.")
-    print("3.) Brr Anuel AA")
+    route = './rooms/snorlax.txt'
+    file = open(route, 'r')
+    print(file.read())
 
     answer = input(">")
 
@@ -198,11 +166,9 @@ def snorlax_room():
         game_over("No descifraste correctamente el código en hexa.")
 
 def weed_room():
-    print("\nSin querer te has dejado la cámara activada y JL te ha visto fumando mientras él explicaba el interesantísimo temario.")
-    print("Justo al acabar la clase te llega un correo de JL, que te comenta que tienes una reunión con el DECANO esa misma tarde.")
-    print("¿Qué decides hacer? (1 o 2)")
-    print("\n1.) Dejarle en visto, total la FP de informática es casi como la carrera ¿no?")
-    print("2.) Acudir a la reunión.")
+    route = './rooms/weed.txt'
+    file = open(route, 'r')
+    print(file.read())
 
     answer = input(">")
 
@@ -213,12 +179,10 @@ def weed_room():
         # if player typed "2" lead him to meet_room()
         meet_room()
 
-def Nuemann_room():
-    print("\nHa pasado un mes del primer parcial y hoy se dará la clase online sobre el procesador VON NEUMANN.")
-    print("¿Qué decides hacer? (1 o 2 o 3)")
-    print("\n1.) Atender a la clase mientras bebo un té verde.")
-    print("2.) Dormir modo Snorlax.")
-    print("3.) Fumar un porro mientras atiendo a la clase.")
+def neumann_room():
+    route = './rooms/neumann.txt'
+    file = open(route, 'r')
+    print(file.read())
 
     answer = input(">")
 
@@ -232,22 +196,20 @@ def Nuemann_room():
         # if player typed "3" lead him to weed_room()
         weed_room()
     
-def exam1_room():
+def exam_room():
     print("\nTe presentas al primer examen y logras aprobar gracias a que tenías al gran Tomit delante.")
-    Nuemann_room()
+    neumann_room()
 
 def sex_room():
-    print("\nUna vez llegas a su casa la chica te pregunta que si quieres ir ya a estudiar o prefieres ver Netflixa un rato.")
-    print("¿Qué respondes? (1 o 2 o 3)")
-    print("\n1.) Mejor nos ponemos a estudiar que el examen es muy difícil.")
-    print("2.) Vemos Netflix un rato y luego estudiamos.")
-    print("3.) No puedo tengo furbo.")
+    route = './rooms/sex.txt'
+    file = open(route, 'r')
+    print(file.read())
 
     answer = input(">")
 
     if (answer == "1"):
         # if player typed "1" lead him to lol_room()
-        exam1_room()
+        exam_room()
     elif (answer == "2"):
         # if player typed "2" lead him to exam1_room()
         print("Después de esta excelente elección descubres un mundo que solo habías percibido en el Hentai y descubres el sentido de la vida.")
@@ -264,42 +226,38 @@ def sex_room():
         game_over("Hay un colapso en el espacio tiempo y se crea una brecha espacial que te absorbe por exceso de estilo.")
 
 def depression1_room():
-    print("\nAl final te pasaste toda la semana practicando para impresionar a tus amigos.")
-    print("En el examen solo fuiste capaz de responder una de las siete preguntas.")
-    print("Aún así tu única esperanza era impresionar a tus amigos con tu gran habilidad para tocar teclas en el momento exacto.")
-    print("Por desgrácia tus panas decidieron no jugar contigo porque les parecías extremadamente raro.")
-    print("Por otra parte dijeron no querer volver a verte desprendías un hedor que les hacía estar incómodos cuando te veían.")
-    print("Debido al trauma que te causó dichas palabras caíste en una gran depresión.")
+    route = './rooms/depression1.txt'
+    file = open(route, 'r')
+    print(file.read())
+
     game_over("Por culpa de la depresión dejaste de acudir a clase y no te presentaste a ningún examen.")
 
 def depression2_room():
-    print("\nDebido al exceso de estudio empezaste a sufrir alucinaciones.")
-    print("Solo eras capaz de comunicarte en binario y ya no querías ver Hentai, preferías ver las sensuales curvas de una puerta OR.")
-    print("Ya no comías, puesto que te alimentabas de los carry que quedaban en las operaciones de suma binaria.")
-    print("Días después fuiste ingresado en un hospital de psiquiatría con muchos otros informáticos.")
+    route = './rooms/depression2.txt'
+    file = open(route, 'r')
+    print(file.read())
+
     game_over("Por culpa de tu enfermedad mental dejaste de acudir a clase y no te presentaste a ningún examen.")
 
 
-def love2_room():
-    print("\nYa ha pasado un mes y medio y no has aprendido nada por estar hablando todo el día con la chica.")
-    print(" En una semana tienes el primer parcial y ella te invita a su casa a estuiar. ¿Qué decides hacer? (1 o 2)")
-    print("\n1.) Ir a su casa a 'estudiar', hay oportunidades que solo se presentan una vez en la vida.")
-    print("2.) Ser responsable y estudiar mucho porque sabes que te van a funar en el examen.")   
+def cupido_room():
+    route = './rooms/cupido.txt'
+    file = open(route, 'r')
+    print(file.read())   
 
     answer = input(">")
 
     if (answer == "1"):
-        # if player typed "1" lead him to lol_room()
+        # if player typed "1" lead him to sex_room()
         sex_room()
     else:
-        # if player typed "2" lead him to class_room()
-        exam1_room()
+        # if player typed "2" lead him to exam_room()
+        exam_room()
 
-def lol2_room():
-    print("\nYa ha pasado un mes y medio y no has aprendido nada por estar jugando con tus nuevos compas todo el día.")
-    print(" En una semana tienes el primer parcial, pero hay torneo de LOL el próximo finde. ¿Qué decides hacer? (1 o 2)")
-    print("\n1.) Entrenar jugando al LOL, necesitas demostrarles que eres el mejor en un juego de ordenador para recibir la aprovación externa que tus padres nunca te dieron.")
-    print("2.) Ser responsable y estudiar mucho porque sabes que te van a funar en el examen.")   
+def gaming_room():
+    route = './rooms/gaming.txt'
+    file = open(route, 'r')
+    print(file.read())   
 
     answer = input(">")
 
@@ -308,23 +266,21 @@ def lol2_room():
         depression1_room()
     else:
         # if player typed "2" lead him to class_room()
-        exam1_room()
+        exam_room()
 
-def class2_room():
-    print("\nYa ha pasado un mes y medio y llevas perfectamente el temario.")
-    print(" En una semana tienes el primer parcial, pero tienes una gran fatiga mental. ¿Qué decides hacer? (1 o 2 o 3)")
-    print("\n1.) Seguir estudiando, no pain no gain, mentalidad de tiburao.")
-    print("2.) Estudiar un rato y luego descansar viendo tu anime favorito.")   
-    print("3.) Beber un chupito de legía.")   
+def study_room():
+    route = './rooms/study.txt'
+    file = open(route, 'r')
+    print(file.read())
     
     answer = input(">")
 
     if (answer == "1"):
-        # if player typed "1" lead him to lol_room()
+        # if player typed "1" lead him to depression_room()
         depression2_room()
     elif (answer == "2"):
-        # if player typed "2" lead him to class_room()
-        class2_room()
+        # if player typed "2" lead him to exam_room()
+        exam_room()
     else:
         # if player typed "3" lead him to class_room()
         print("Te despiertas debido a un calor abrasador y te das cuenta de que estás en un descampado infinitamente grande.")
@@ -337,7 +293,7 @@ def class2_room():
         print("¿Qué decides hacer? (1 o 2 o 3)")
         print("\n1.) Seguir estudiando, no pain no gain, mentalidad de tiburao.")
         print("2.) Estudiar un rato y luego descansar viendo tu anime favorito.")   
-        print("3.) Beber un chupito de legía.")   
+        print("3.) Beber un chupito de lejía.")   
         
         answer = input(">")
 
@@ -346,32 +302,29 @@ def class2_room():
             depression2_room()
         elif (answer == "2"):
             # if player typed "2" lead him to class_room()
-            exam1_room()
+            exam_room()
         else: 
             game_over("No todo el mundo nace con los cromosomas correctos.")
 
 def lol_room():
-    print("\nSin darte cuenta has pasado toda la clase hablando de LOL con tus nuevos amigos y no has hecho caso a JL.")
-    print("Llegas a casa y recibes una llamada de uno de tus amigos preguntandote si quieres jugar ¿Qué decides hacer? (1 o 2)")
-    print("\n1.) Jugar para socializar porque nunca has tenido amigos, sino no serías informático.")
-    print("2.) No jugar y repasar. Total para que quieres amigos reales cuando puedes tener todos los imaginarios que quieras.")   
+    route = './rooms/lol.txt'
+    file = open(route, 'r')
+    print(file.read())   
 
     answer = input(">")
 
     if (answer == "1"):
         # if player typed "1" lead him to lol_room()
-        lol2_room()
+        gaming_room()
     else:
         # if player typed "2" lead him to class_room()
-        class2_room()
+        study_room()
 
 
 def class_room():
-    print("\nHas atendido sabiamente a toda la clae del gran JL aprendiendo cosas que nunca vas a usar porque no te gusta el hardware.") 
-    print(" ¿verdad?")
-    print("\n1.) Si que me gusta, soy un psicópata.")
-    print("2.) No, no me ducho pero soy normal.")   
-    print("3.) Viva el betis.")   
+    route = './rooms/class.txt'
+    file = open(route, 'r')
+    print(file.read())
 
     answer = input(">")
 
@@ -389,35 +342,33 @@ def class_room():
 
         if (answer == "1"):
             # if player typed "1" lead him to lol_room()
-            class2_room()
+            study_room()
         elif (answer == "2"):
             # if player typed "2" lead him to lol_room()
-            lol2_room()
+            gaming_room()
         else:
             # if player typed "3" lead him to class_room()
-            love2_room()
+            cupido_room()
 
 def love_room():
-    print("\nSin darte cuenta has pasado toda la clase hablando con la chica y no has hecho caso a JL.")
-    print("Llegas a casa y recibes una llamada de la chica de clase ¿Qué decides hacer? (1 o 2)")
-    print("\n1.) Coger el teléfono.")
-    print("2.) No coger el teléfono y repasar lo que se ha repasado.")   
+    route = './rooms/love.txt'
+    file = open(route, 'r')
+    print(file.read())
 
     answer = input(">")
 
     if (answer == "1"):
         # if player typed "1" lead him to lol_room()
-        love2_room()
+        cupido_room()
     else:
         # if player typed "2" lead him to class_room()
-        class2_room()
+        study_room()
     
 
 def virgo_room():
-    print("\nUna vez te sientas los chicos que estaban hablando se callan de repente.")
-    print("\n¿Qué decides hacer? (1 o 2)")
-    print("\n1.) Saludar a tus compañeros con un -Hola.")
-    print("2.) No decir nada y esperar a que inicie la clase.")
+    route = './rooms/virgo.txt'
+    file = open(route, 'r')
+    print(file.read())
 
     answer = input(">")
 
@@ -429,12 +380,9 @@ def virgo_room():
         class_room()
 
 def girl_room():
-    print("\nLa chica en la que te habías fijado resulta ser un tio, amigo despierta esto es informática.")
-    print("Aún así pareces estar en tu día de suerte, ya que una chica se sienta a tu lado y te saluda.")
-    print("¿Qué decides hacer? (1 o 2 o 3)")
-    print("\n1.) Saludarle de vuelta con un -Hola.")
-    print("2.) Asentir con la cabeza sin llegar a decir nada.")
-    print("3.) Agachar la cabeza y no responder, nunca antes has hablado con una mujer y la situación te sobrepasa.")
+    route = './rooms/girl.txt'
+    file = open(route, 'r')
+    print(file.read())
 
     answer = input(">")
 
@@ -444,8 +392,6 @@ def girl_room():
     else :
         # if player typed "2" or "3" lead him to class_room()
         class_room()
-
-
 
 
 # function to ask play again or not
@@ -469,17 +415,10 @@ def game_over(reason):
     play_again()
 
 def start(): 
-    print("\nFicha técnica:")
-    print("    Nombre: Mariano")
-    print("    Apellidos: García, García") 
-    print("    Edad: ln(65659969.14)")
-    print("    Hobbies: jugar al LOL, espiar a la vecina del cuarto, ver Hentai.")
-    print("    Nº de relaciones afectivas: cos 90.")
-    print("    Signo zodiacal: virgo.")
-    print("\nAcabas de entrar a tu primera clase de IC.")
-    print("Sentados delante del todo hay un grupo de chicos que huelen a jugadores de LOL.")
-    print("Sentada al final de clase hay lo que parece ser una chica.")
-    print("¿Dónde decides sentarte? (principio = p o final = f)")
+    
+    route = './rooms/start.txt'
+    file = open(route, 'r')
+    print(file.read())
     
     answer = input(">").lower()
     

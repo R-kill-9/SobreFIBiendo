@@ -1,0 +1,11 @@
+Ficha técnica:
+        Nombre: Mariano
+        Apellidos: García, García
+        Edad: ln(65659969.14)
+        Hobbies: jugar al LOL, espiar a la vecina del cuarto, ver Hentai.
+        Nº de relaciones afectivas: cos 90.
+        Signo zodiacal: virgo.
+Acabas de entrar a tu primera clase de IC.
+Sentados delante del todo hay un grupo de chicos que huelen a jugadores de LOL.
+Sentada al final de clase hay lo que parece ser una chica.
+¿Dónde decides sentarte? (principio = p o final = f)

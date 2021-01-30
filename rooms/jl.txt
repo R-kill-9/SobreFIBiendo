@@ -1,0 +1,13 @@
+
+Una vez llegas a la facultad notas como el cielo se llena de nubes y baja la temperatura causando una erección en tus pezones.
+Al entrar en el despacho de JL un destello te ciega. Al recuperar la vista ves que el despacho ha desaparecido y estás en el Coliseo.
+        
+        JL: -Llevaba tiempo esperándote. Sois muchos ya los que habéis intentado vencerme, pero aún nadie ha sido digno de mi poder.
+        Tú: -No te equivoques, yo no soy como el resto. El poder de Von Neumann está de mi lado y siento como corre por mis venas.
+        JL: -Pobre iluso. No eres capaz ni de hacer el ejercicio del semáforo inútil. Me das tanta pena que te dejaré atacar primero.
+
+¿Qué ataque decides hacer? (1 o 2 o 3)")
+    
+    1.) Disparar puertas AND con los ojos.
+    2.) Invocar al mismisimo PUTIN con tu dominio del ruso.
+    3.) Flirtear con JL.

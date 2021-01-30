@@ -1,0 +1,7 @@
+
+Una vez llegas a su casa la chica te pregunta que si quieres ir ya a estudiar o prefieres ver Netflixa un rato.
+¿Qué respondes? (1 o 2 o 3)
+    
+    1.) Mejor nos ponemos a estudiar que el examen es muy difícil.
+    2.) Vemos Netflix un rato y luego estudiamos.
+    3.) No puedo tengo furbo.

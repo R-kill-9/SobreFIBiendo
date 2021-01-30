@@ -1,0 +1,12 @@
+
+Estás en un sueño, en medio de la nada. Lo único que hay es una figura de un metro de altura de un doble elefante télepata de guerra.
+En la figura hay un mensaje oculto en el que se puede leer lo siguiente: 
+    
+    1011 1110 1011 1110 0101 0001 0111 1010
+
+Al lado de la figura hay tres botones con tres palabras distintas.
+¿Cuál decides pulsar? (1 o 2 o 3)
+    
+    1.) Botón 1: Ole Betis
+    2.) Botón 2: Bebesita.
+    3.) Botón 3: Brr Anuel AA

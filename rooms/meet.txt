@@ -1,0 +1,7 @@
+
+Al llegar a la reunión te encuentras al RECTOR en la entrada del despacho y te pregunta qué haces ahí.
+¿Qué decides hacer? (1 o 2 o 3)
+    
+    1.) Mentirle. Es mi ídolo y no quiero que tenga mala imagen de mi.
+    2.) Me quedo abrumado debido a que es excesivamente táctico.
+    3.) Decirle la verdad porque es jedi y sabrá si le miento.
