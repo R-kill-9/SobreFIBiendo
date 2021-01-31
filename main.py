@@ -96,9 +96,7 @@ def plan_room():
 
 def putin_room():
     while True:
-        route = './rooms/putin_loop.txt'
-        file = open(route, 'r')
-        print(file.read()
+        print("Родина Россия")
 
 def heroe_room():
     route = './rooms/heroe.txt'
