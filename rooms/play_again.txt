@@ -1,0 +1,4 @@
+
+
+Se te ha hecho una revisión de expediente y se te ha otorgado una última oportunidad, ¿Quieres aprovecharla?
+(si = s o no = n)

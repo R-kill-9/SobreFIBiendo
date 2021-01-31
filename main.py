@@ -26,9 +26,10 @@ def jl2_room():
         final_room()
     elif (attack == "3"):
     # if player typed "3" lead him to game_over()
-        print("    JL: -No intentes eso, mi corazón está roto. Yo solo he sido capaz de amar a un hombre, Vladimir y la vida nos separó.")
-        print("    JL: -Jamás deberías haberme hecho recordarlo maldito gusano.")     
-        print("Tus palabras causaron tal cólera en JL que desprendió una onda binaria explosiva que separó tu cabeza de tu cuerpo en un t.p.")       
+        route = './rooms/sub_elif_jl2.txt'
+        file = open(route, 'r')
+        print(file.read())
+        final_room()
         game_over("Nunca debiste recordarle a JL que tiene el cora partido.")
     else:
         # if player typed "2" lead him to final_room()
@@ -52,9 +53,9 @@ def jl_room():
         final_room()
     elif (attack == "3"):
     # if player typed "3" lead him to game_over()
-        print("    JL: -No intentes eso, mi corazón está roto. Yo solo he sido capaz de amar a un hombre, Vladimir y la vida nos separó.")
-        print("    JL: -Jamás deberías haberme hecho recordarlo maldito gusano.")     
-        print("Tus palabras causaron tal cólera en JL que desprendió una onda binaria explosiva que separó tu cabeza de tu cuerpo en un t.p.")       
+        route = './rooms/sub_elif_jl.txt'
+        file = open(route, 'r')
+        print(file.read())
         game_over("Nunca debiste recordarle a JL que tiene el cora partido.")
     else:
         # if player typed "2" lead him to putin_love_room()
@@ -68,7 +69,9 @@ def plan_room():
     answer1 = input(">")
     
     if (answer1 == "1"):
-        print("Quién podría rechazar dicha oferta.")
+        route = './rooms/if_plan.txt'
+        file = open(route, 'r')
+        print(file.read())
     
     else:
         game_over("Pero muy guapo.")
@@ -83,7 +86,9 @@ def plan_room():
         # if player typed "1" lead him to JL_room()
         jl2_room()
     elif (answer == "2"):
-        print("Al pronunciar dicha palabra has causado un bucle de amor a Rusia.")
+        route = './rooms/putin.txt'
+        file = open(route, 'r')
+        print(file.read())
         putin_room()
     else:
         # if player typed "3" lead him to putin_room()
@@ -91,7 +96,9 @@ def plan_room():
 
 def putin_room():
     while True:
-        print("Родина Россия")
+        route = './rooms/putin_loop.txt'
+        file = open(route, 'r')
+        print(file.read()
 
 def heroe_room():
     route = './rooms/heroe.txt'
@@ -123,8 +130,9 @@ def meet_room():
         game_over("Nunca intentes mentir a un maestro jedi.")
     elif (answer == "2"):
     # if player typed "2" lead him to digimon_room()
-        print("A todos nos pasaría lo mismo pero la respuesta correcta era la 3.")
-        print("Vamos a hacer que no ha pasado nada y que has escogido la 3.")
+        route = './rooms/sub_meet.txt'
+        file = open(route, 'r')
+        print(file.read())
         plan_room()
     else:
         # if player typed "3" lead him to plan_room()
@@ -179,7 +187,9 @@ def neumann_room():
         weed_room()
     
 def exam_room():
-    print("\nTe presentas al primer examen y logras aprobar gracias a que tenías al gran Tomit delante.")
+    route = './rooms/exam.txt'
+    file = open(route, 'r')
+    print(file.read())
     neumann_room()
 
 def sex_room():
@@ -364,8 +374,9 @@ def girl_room():
 
 # function to ask play again or not
 def play_again():
-    print("\n\nSe te ha hecho una revisión de expediente y se te ha otorgado una última oportunidad, ¿Quieres aprovecharla?")
-    print(" (si = s o no = n)")
+    route = './rooms/play_again.txt'
+    file = open(route, 'r')
+    print(file.read())
     
     answer = input(">")
      
