@@ -333,10 +333,9 @@ def class_room():
         game_over("Gracias por jugar, pero porfavor no te acerques a mi por la calle que me das miedo.")
     else:
         # if player typed "2" or "3" lead him to class_room()
-        print("\nLlegas a casa después de tremendo tostón de clase, ¿Qué decides hacer?") 
-        print("\n1.) Repasar un poquito, menos vida social no puedo tener.")
-        print("2.) Entrar al Discord del curso para ver si alguien juega al LOL.")   
-        print("3.) Buscar el insta de la chica que se sienta atrás, la mala racha de 18 años se puede acabar.")
+        route = './rooms/sun_class.txt'
+        file = open(route, 'r')
+        print(file.read())
         
         answer = input(">")
 
