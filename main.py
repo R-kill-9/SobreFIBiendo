@@ -20,12 +20,9 @@ def jl2_room():
 
     if (attack == "1"):
         # if player typed "1" lead him to final_room()
-        print("Has fumado tantos porros con el RECTOR que tu nivel de fuerza ha igualado al de GOKU y el bong ha llegado a 2.99*10^8 m/s.")
-        print("Jl intenta esquivar el bong con su velocidad de procesador VON NEUMANN usando la ALU, pero no es suficiente.")
-        print("La velocidad es tal que el golpe desintegra a JL con el impacto, acción que le produce un gran placer a tu mente enferma.")
-        print("Delante tuyo aparecen mágicamente dos objetos.")
-        print("El primer objeto es un boli rojo en el que está escrito lo siguiente: 'Un boli para suspenderlos a todos'.")
-        print("El otro objeto es un certificado de la asignatura de IC.")
+        route = './rooms/sub_jl2.txt'
+        file = open(route, 'r')
+        print(file.read())
         final_room()
     elif (attack == "3"):
     # if player typed "3" lead him to game_over()
@@ -35,13 +32,9 @@ def jl2_room():
         game_over("Nunca debiste recordarle a JL que tiene el cora partido.")
     else:
         # if player typed "2" lead him to final_room()
-        print("Invocas un MERCEDES BENZ FULL EQUIPED de color amarillo usando palabras no inteligíbles para un ser humano.")
-        print("Posteriormente te subes y te das cuenta de que el acabado del interior es precioso, gracias a las matrículas de los de tardes.")
-        print("Una vez has observado perfectamente el coche atropellas majestuosamente a JL, múltiples veces.")
-        print("Cuando observas que ya lo has derrotado sigues atropellándolo porque estás loco, sino no habrías llegado hasta aquí.")
-        print("Delante tuyo aparecen mágicamente dos objetos.")
-        print("El primer objeto es un boli rojo en el que está escrito lo siguiente: 'Un boli para suspenderlos a todos'.")
-        print("El otro objeto es un certificado de la asignatura de IC.")
+        route = './rooms/else_sub_jl2.txt'
+        file = open(route, 'r')
+        print(file.read())
         final_room()
 
 def jl_room():
@@ -53,13 +46,9 @@ def jl_room():
 
     if (attack == "1"):
         # if player typed "1" lead him to final_room()
-        print("Tu poder es tal que has sido capaz de clavarle veinte puertas AND en cada ojo a tu enemigo.")
-        print("Jl intenta ir a por ti pero por culpa de la ceguera se tropieza con una piedra del Colisseo y cae en una trampilla secreta.")
-        print("En esa trampilla es devorado por dos leones, acción que le produce un gran placer a tu mente enferma.")
-        print("Delante tuyo aparecen mágicamente dos objetos.")
-        print("El primer objeto es un boli rojo en el que está escrito lo siguiente: 'Un boli para suspenderlos a todos'.")
-        print("El otro objeto es un certificado de la asignatura de IC.")
-        
+        route = './rooms/sub_jl.txt'
+        file = open(route, 'r')
+        print(file.read())
         final_room()
     elif (attack == "3"):
     # if player typed "3" lead him to game_over()
@@ -70,8 +59,6 @@ def jl_room():
     else:
         # if player typed "2" lead him to putin_love_room()
         putin_love_room()
-
-
 
 def plan_room():
     route = './rooms/plan.txt'
@@ -86,14 +73,9 @@ def plan_room():
     else:
         game_over("Pero muy guapo.")
 
-    print("\nEn el bar te cuenta tener un malévolo plan con el que convertirá a la FIB en la mayor asociación de marihuana de ESPAÑITA.")
-    print("Te confiesa que le has caído muy bien y que le gustaría que le ayudaras a cumplir su sueño.")
-    print("Tu único trbajo sería retar a JL, su gran opositor, a una batalla a muerte.")
-    print("Te promete que si ganas te regalrá el título de informática y un mercedes comprado con las cuotas de tus compañeros de clase.")
-    print("¿Aceptas? (1 o 2)")
-    print("\n1.) Voy a acabar con JL y vengar a aquellos soldados caídos en Noviembre.")
-    print("2.) Aceituna.")
-    print("3.) Yo cogería la 1.")
+    route = './rooms/sub_plan.txt'
+    file = open(route, 'r')
+    print(file.read())
     
     answer = input(">")
 
@@ -212,14 +194,9 @@ def sex_room():
         exam_room()
     elif (answer == "2"):
         # if player typed "2" lead him to exam1_room()
-        print("Después de esta excelente elección descubres un mundo que solo habías percibido en el Hentai y descubres el sentido de la vida.")
-        print("Posteriormente al llegar a tu casa se te presenta ante tus ojos un espíritu con gafas y  sobrepeso que te dice:")
-        print("Espíritu:")
-        print("    -Soy la represenación de los códigos del informático, los mismos que tú hoy has roto.")
-        print("    -Pues está escrito en dichos códigos que todo informático debe mantenerse puro hasta recibir su grado.")
-        print("    -Por romper el código debo privarte de tu esencia de infórmaitco y converirte en un sucio muggle.")
-        print("Después de que el espíritu desaparezca empieza a desaparecer tu chepa y a arreglarse mágicamente tu vista.")
-        print("Y de repente sientes unas ganas irrefrenables de apuntarte a ADE y ser tu propio jefe a la par que aprender 9 idiomas.")
+        route = './rooms/sub_sex.txt'
+        file = open(route, 'r')
+        print(file.read())
         game_over("Debido a tu repentino cambio decides dejar la carrera.")
     else:
         # if player typed "3" lead him to game_room()
@@ -283,17 +260,9 @@ def study_room():
         exam_room()
     else:
         # if player typed "3" lead him to class_room()
-        print("Te despiertas debido a un calor abrasador y te das cuenta de que estás en un descampado infinitamente grande.")
-        print("En la lejanía se escucha Bohemian Rhapsody y delante tuyo aparece Maradona, que te ayuda a levantarte.")
-        print("Caminas junto a él hasta llegar delante de un hombre colosal, que te dice lo siguiente:")
-        print("Satán: ")
-        print("    -Muchos me conocen como el Diablo, Satán, procesador Von Nuemann, Lucifer, pero tu puedes llamarme Manolo.")
-        print("    -Estás destinado a vivir en el castigo eterno, pero que peor castigo hay para alguien como tu que la vida misma.")
-        print("Justo después de que ese coloso recitara la última palabra vuelves a aprecer en tu habitación con el vaso de detergente en la mano.")
-        print("¿Qué decides hacer? (1 o 2 o 3)")
-        print("\n1.) Seguir estudiando, no pain no gain, mentalidad de tiburao.")
-        print("2.) Estudiar un rato y luego descansar viendo tu anime favorito.")   
-        print("3.) Beber un chupito de lejía.")   
+        route = './rooms/sub_study.txt'
+        file = open(route, 'r')
+        print(file.read())   
         
         answer = input(">")
 
