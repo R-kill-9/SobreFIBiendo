@@ -1,7 +1,7 @@
 
 Ha pasado un mes del primer parcial y hoy se dará la clase online sobre el procesador VON NEUMANN.
-¿Qué decides hacer? (1 o 2 o 3)
+¿Qué decides hacer? (0 o 1 o 2)
     
-    1.) Atender a la clase mientras bebo un té verde.
-    2.) Dormir modo Snorlax.
-    3.) Fumar un porro mientras atiendo a la clase.
+    0.) Atender a la clase mientras bebo un té verde.
+    1.) Dormir modo Snorlax.
+    2.) Fumar un porro mientras atiendo a la clase.

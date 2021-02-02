@@ -8,4 +8,8 @@ Ficha técnica:
 Acabas de entrar a tu primera clase de IC.
 Sentados delante del todo hay un grupo de chicos que huelen a jugadores de LOL.
 Sentada al final de clase hay lo que parece ser una chica.
-¿Dónde decides sentarte? (principio = p o final = f)
+¿Dónde decides sentarte? (0 o 1 o 2)
+
+    0.) Final
+    1.) Principio
+    2.) Me he equivocado de clase

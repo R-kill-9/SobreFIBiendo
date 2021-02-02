@@ -1,6 +1,7 @@
 
 Una vez te sientas los chicos que estaban hablando se callan de repente.
-¿Qué decides hacer? (1 o 2)
+¿Qué decides hacer? (0 o 1 o 2)
     
-    1.) Saludar a tus compañeros con un -Hola.
-    2.) No decir nada y esperar a que inicie la clase.
+    0.) Saludar a tus compañeros con un -Hola.
+    1.) No decir nada y esperar a que inicie la clase.
+    2.) Comer los Doritos tex-mex que tienes en la mochila.

@@ -8,8 +8,8 @@ Caminas junto a él hasta llegar delante de un hombre colosal, que te dice lo si
             -Estás destinado a vivir en el castigo eterno, pero que peor castigo hay para alguien como tu que la vida misma.
         
 Justo después de que ese coloso recitara la última palabra vuelves a aprecer en tu habitación con el vaso de detergente en la mano.
-¿Qué decides hacer? (1 o 2 o 3)
+¿Qué decides hacer? (0 o 1 o 2)
         
-        1.) Seguir estudiando, no pain no gain, mentalidad de tiburao.
-        2.) Estudiar un rato y luego descansar viendo tu anime favorito. 
-        3.) Beber un chupito de lejía.
+        0.) Seguir estudiando, no pain no gain, mentalidad de tiburao.
+        1.) Estudiar un rato y luego descansar viendo tu anime favorito. 
+        2.) Beber un chupito de lejía.

@@ -6,8 +6,8 @@ Al entrar en el despacho de JL un destello te ciega. Al recuperar la vista ves q
         Tú: -No te equivoques, yo no soy como el resto. El poder de Von Neumann está de mi lado y siento como corre por mis venas.
         JL: -Pobre iluso. No eres capaz ni de hacer el ejercicio del semáforo inútil. Me das tanta pena que te dejaré atacar primero.
 
-¿Qué ataque decides hacer? (1 o 2 o 3)
+¿Qué ataque decides hacer? (0 o 1 0 2)
     
-    1.) Tirarle un bong a la cabeza.
-    2.) Invocar uno de los muchos MERCEDES del sr. RECTOR.
-    3.) Flirtear con JL.
+    0.) Tirarle un bong a la cabeza.
+    1.) Invocar uno de los muchos MERCEDES del sr. RECTOR.
+    2.) Flirtear con JL.

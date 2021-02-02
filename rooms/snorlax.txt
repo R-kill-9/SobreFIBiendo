@@ -5,8 +5,8 @@ En la figura hay un mensaje oculto en el que se puede leer lo siguiente:
     1011 1110 1011 1110 0101 0001 0111 1010
 
 Al lado de la figura hay tres botones con tres palabras distintas.
-¿Cuál decides pulsar? (1 o 2 o 3)
+¿Cuál decides pulsar? (0 o 1 o 2)
     
-    1.) Botón 1: Ole Betis
-    2.) Botón 2: Bebesita.
-    3.) Botón 3: Brr Anuel AA
+    0.) Botón 001: Ole Betis
+    1.) Botón 010: Bebesita.
+    2.) Botón 011: Brr Anuel AA

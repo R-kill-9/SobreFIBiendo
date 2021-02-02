@@ -1,6 +1,6 @@
 
-Llegas a casa después de tremendo tostón de clase, ¿Qué decides hacer?
+Llegas a casa después de tremendo tostón de clase, ¿Qué decides hacer? (0 o 1 o 2)
         
-        1.) Repasar un poquito, menos vida social no puedo tener.
-        2.) Entrar al Discord del curso para ver si alguien juega al LOL.
-        3.) Buscar el insta de la chica que se sienta atrás, la mala racha de 18 años se puede acabar.
+        0.) Repasar un poquito, menos vida social no puedo tener.
+        1.) Entrar al Discord del curso para ver si alguien juega al LOL.
+        2.) Buscar el insta de la chica que se sienta atrás, la mala racha de 18 años se puede acabar.

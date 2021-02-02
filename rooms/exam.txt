@@ -1,2 +1,6 @@
 
-Te presentas al primer examen y logras aprobar gracias a que tenías al gran Tomit delante.
+Te presentas al primer examen y logras aprobar gracias a que tenías al gran Tomit delante. ¿Qué decides hacer? (0 o 1 o 2)
+    
+    0.) Copiar de forma disimulada.
+    1.) Copiar desesperadamente.
+    2.) Confiar en ti mismo y en tus conocimientos.

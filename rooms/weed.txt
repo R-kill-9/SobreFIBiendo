@@ -1,7 +1,8 @@
 
 Sin querer te has dejado la cámara activada y JL te ha visto fumando mientras él explicaba el interesantísimo temario.
 Justo al acabar la clase te llega un correo de JL, que te comenta que tienes una reunión con el DECANO esa misma tarde.
-¿Qué decides hacer? (1 o 2)
+¿Qué decides hacer? (0 o 1 o 2)
     
-    1.) Dejarle en visto, total la FP de informática es casi como la carrera ¿no?
-    2.) Acudir a la reunión.
+    0.) Dejarle en visto, total la FP de informática es casi como la carrera ¿no?
+    1.) Coger un Uber para ir a la reunión.
+    2.) Volar en jetpack hasta la reunión.

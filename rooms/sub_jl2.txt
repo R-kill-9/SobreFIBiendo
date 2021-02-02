@@ -4,4 +4,8 @@ Jl intenta esquivar el bong con su velocidad de procesador VON NEUMANN usando la
 La velocidad es tal que el golpe desintegra a JL con el impacto, acción que le produce un gran placer a tu mente enferma.
 Delante tuyo aparecen mágicamente dos objetos.
 El primer objeto es un boli rojo en el que está escrito lo siguiente: 'Un boli para suspenderlos a todos'.
-El otro objeto es un certificado de la asignatura de IC.
+El otro objeto es un certificado de la asignatura de IC. ¿Qué decides hacer? (0 o 1 o 2)
+    
+    0.) Coger el boli primero y después el certificado.
+    1.) Coger el certificado y después el boli.
+    2.) Me da igual el orden, de hecho los puedo coger a la vez.

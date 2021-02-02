@@ -11,5 +11,9 @@ Al aparecer PUTIN ves como cambia repentinamentela cara de JL.
 
 Después de la última palabra PUTIN desintegró a JL utilizando sus preciosos ojos azules y desapareció.
 Entre los restos de JL aparecieron mágicamente dos objetos.
- El primer objeto es un boli rojo en el que está escrito lo siguiente: 'Un boli para suspenderlos a todos'.
-El otro objeto es un certificado de la asignatura de IC.
+El primer objeto es un boli rojo en el que está escrito lo siguiente: 'Un boli para suspenderlos a todos'.
+El otro objeto es un certificado de la asignatura de IC. ¿Qué decides hacer? (0 o 1 o 2)
+    
+    0.) Coger el boli primero y después el certificado.
+    1.) Coger el certificado y después el boli.
+    2.) Me da igual el orden, de hecho los puedo coger a la vez.

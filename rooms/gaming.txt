@@ -1,6 +1,7 @@
 
 Ya ha pasado un mes y medio y no has aprendido nada por estar jugando con tus nuevos compas todo el día.
-En una semana tienes el primer parcial, pero hay torneo de LOL el próximo finde. ¿Qué decides hacer? (1 o 2)
+En una semana tienes el primer parcial, pero hay torneo de LOL el próximo finde. ¿Qué decides hacer? (0 o 1 o 2)
     
-    1.) Entrenar jugando al LOL, necesitas demostrarles que eres el mejor en un juego de ordenador para recibir la aprovación externa que tus padres nunca te dieron.
+    0.) Entrenar jugando al LOL, necesitas demostrarles que eres el mejor en un juego de ordenador para recibir la aprovación externa que tus padres nunca te dieron.
+    1.) Repasar un poco y aprender a bailar Tango.
     2.) Ser responsable y estudiar mucho porque sabes que te van a funar en el examen.

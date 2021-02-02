@@ -1,4 +1,7 @@
 
 
-Se te ha hecho una revisión de expediente y se te ha otorgado una última oportunidad, ¿Quieres aprovecharla?
-(si = s o no = n)
+Se te ha hecho una revisión de expediente y se te ha otorgado una última oportunidad, ¿Quieres aprovecharla? (0 o 1 o 2)
+    
+    0.) SI.
+    1.) NO.
+    2.) PUEDE.
