@@ -3,5 +3,5 @@ Sin darte cuenta has pasado toda la clase hablando con la chica y no has hecho c
 Llegas a casa y recibes una llamada de la chica de clase ¿Qué decides hacer? (0 o 1 o 2)
     
     0.) Coger el teléfono.
-    1.) No coger el teléfono y repasar lo que se ha repasado.
+    1.) No coger el teléfono y repasar lo que se ha explicado.
     2.) No coger el teléfono y buscar otras chicas en Tinder.
